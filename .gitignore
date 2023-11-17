@@ -1,0 +1,8 @@
+.cache/
+.config/
+.local/
+.ssh/
+.vscode-server/
+snap/
+output.mp3
+civil-icon-396606-0ba48c32ca95.json

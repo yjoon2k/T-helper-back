@@ -1,0 +1,1084 @@
+python3: can't open file 'a.py': [Errno 2] No such file or directory
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.17.0.59:5000
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 102-925-443
+10.16.0.2 - - [28/Oct/2023 19:31:28] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [28/Oct/2023 19:31:28] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [28/Oct/2023 20:42:41] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [28/Oct/2023 20:42:52] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [28/Oct/2023 20:43:15] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [28/Oct/2023 20:43:44] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [28/Oct/2023 20:44:04] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [28/Oct/2023 20:44:25] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [28/Oct/2023 20:45:02] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [28/Oct/2023 20:45:18] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [28/Oct/2023 20:47:16] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [28/Oct/2023 20:48:37] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [28/Oct/2023 20:49:17] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [28/Oct/2023 21:10:12] "POST /api/translate HTTP/1.1" 200 -
+ * Detected change in '/home/ubuntu/app.py', reloading
+WAKE UP! IT'S AN EMERGENCY! MY BOWL IS EMPTY 깨우다! 긴급 상황입니다! 내 그릇이 비어 있어요
+WAKE UP! IT'S AN EMERGENCY! MY BOWL IS EMPTY 깨우다! 긴급 상황입니다! 내 그릇이 비어 있어요
+돌았어? Did you turn?
+뭐가문제야 73 What&#39;s the problem 73
+야기 속으로! 내 삶의 의미는 무엇일까? Into Yagi! What is the meaning of my life?
+안녕하세요구르트 Hello Gurt
+북해 정상회담 특별 생방송 북미 정상 회담장 아동중 에서 트럼프 대통령 먼저 도착.. 김 위원장 맞을 듯 STA SBS EVE 00:56 North Sea Summit Special Live Broadcast President Trump arrives first among the children at the North Korea-US summit... Chairman Kim appears to be meeting STA SBS EVE 00:56
+돈 땃쥐 미 money shrew me
+방 금.. 인나써... Just now... I&#39;m here...
+저는 토끼 한 마리를 잡을 때도 최선을 다 합니다. ...왜? I do my best even when I catch a rabbit. ...why?
+백설기녀 피부비밀 공개 MESEN eyesover 34 FOOT UYHUR 면 웹사이트를 보려면 위로 살짝 미세요 BENALINA 클렌징에 신경을 쓰는편이에요 Snow white girl&#39;s skin secret revealed MESEN eyesover 34 FOOT UYHUR Swipe up to see the cotton website BENALINA I tend to be careful about cleansing.
+박지원 7 믿 ㅏ we 5 그 骨 tetoo N vol YHAPP Park Ji-won 7 Believe A we 5 That 骨 tetoo N vol YHAPP
+JACK DANIEL'S Old No.7 Tennessee SOUR MAS WHISKEY BOTTLED 6 営業中 焼 どて 肉 YOU TOMERO NICE MEAT T YOU TO NICE 人生は 選択と決断の 連続….. 汗かいてるか (決めてから 悩んだらう 恥かいてるか 恋も仕事も 選びすぎてないか? 店長より可愛いければ ave 即採用 大阪市 19 9641 JACK DANIEL&#39;S Old No.7 Tennessee SOUR MAS WHISKEY BOTTLED 6 영업중 구운 고기 YOU TOMERO NICE MEAT T YOU TO NICE 인생은 선택과 결단의 연속….. 사랑이나 일도 너무 선택하지 않았습니까? 점장보다 귀엽다면 ave 즉 채용 오사카시 19 9641
+WAKE UP! IT'S AN EMERGENCY! MY BOWL IS EMPTY 깨우다! 긴급 상황입니다! 내 그릇이 비어 있어요
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 102-925-443
+ * Detected change in '/home/ubuntu/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 102-925-443
+10.16.0.2 - - [28/Oct/2023 21:51:08] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [28/Oct/2023 22:11:39] "POST /api/translate HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1478, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1458, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/app.py", line 70, in process_image
+    file = request.files['image']
+  File "/usr/local/lib/python3.8/dist-packages/werkzeug/datastructures/structures.py", line 192, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+KeyError: 'image'
+10.16.0.2 - - [28/Oct/2023 22:11:42] "POST /api/translate HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1478, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1458, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/app.py", line 70, in process_image
+    file = request.files['image']
+  File "/usr/local/lib/python3.8/dist-packages/werkzeug/datastructures/structures.py", line 192, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+KeyError: 'image'
+10.16.0.2 - - [28/Oct/2023 22:12:17] "POST /api/translate HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1478, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1458, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/app.py", line 70, in process_image
+    file = request.files['image']
+  File "/usr/local/lib/python3.8/dist-packages/werkzeug/datastructures/structures.py", line 192, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+KeyError: 'image'
+10.16.0.2 - - [28/Oct/2023 22:14:32] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [28/Oct/2023 22:25:35] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [28/Oct/2023 22:25:50] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [28/Oct/2023 22:26:20] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [28/Oct/2023 23:21:57] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [28/Oct/2023 23:22:24] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [29/Oct/2023 03:28:52] "POST /api/translate HTTP/1.1" 200 -
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.17.0.59:5000
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 987-228-965
+10.16.0.2 - - [29/Oct/2023 09:01:11] "POST /api/translate HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1478, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1458, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/app.py", line 74, in process_image
+    client = vision.ImageAnnotatorClient()
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/google/cloud/vision_v1/services/image_annotator/client.py", line 462, in __init__
+    self._transport = Transport(
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/google/cloud/vision_v1/services/image_annotator/transports/grpc.py", line 155, in __init__
+    super().__init__(
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/google/cloud/vision_v1/services/image_annotator/transports/base.py", line 103, in __init__
+    credentials, _ = google.auth.default(
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/google/auth/_default.py", line 691, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+10.16.0.2 - - [29/Oct/2023 09:01:12] "POST /api/translate HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1478, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1458, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/app.py", line 74, in process_image
+    client = vision.ImageAnnotatorClient()
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/google/cloud/vision_v1/services/image_annotator/client.py", line 462, in __init__
+    self._transport = Transport(
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/google/cloud/vision_v1/services/image_annotator/transports/grpc.py", line 155, in __init__
+    super().__init__(
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/google/cloud/vision_v1/services/image_annotator/transports/base.py", line 103, in __init__
+    credentials, _ = google.auth.default(
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/google/auth/_default.py", line 691, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+10.16.0.2 - - [29/Oct/2023 09:01:17] "POST /api/translate HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1478, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1458, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/app.py", line 74, in process_image
+    client = vision.ImageAnnotatorClient()
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/google/cloud/vision_v1/services/image_annotator/client.py", line 462, in __init__
+    self._transport = Transport(
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/google/cloud/vision_v1/services/image_annotator/transports/grpc.py", line 155, in __init__
+    super().__init__(
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/google/cloud/vision_v1/services/image_annotator/transports/base.py", line 103, in __init__
+    credentials, _ = google.auth.default(
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/google/auth/_default.py", line 691, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+10.16.0.2 - - [29/Oct/2023 09:02:27] "POST /api/translate HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1478, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1458, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/app.py", line 74, in process_image
+    client = vision.ImageAnnotatorClient()
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/google/cloud/vision_v1/services/image_annotator/client.py", line 462, in __init__
+    self._transport = Transport(
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/google/cloud/vision_v1/services/image_annotator/transports/grpc.py", line 155, in __init__
+    super().__init__(
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/google/cloud/vision_v1/services/image_annotator/transports/base.py", line 103, in __init__
+    credentials, _ = google.auth.default(
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/google/auth/_default.py", line 691, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+10.16.0.2 - - [29/Oct/2023 09:03:06] "POST /api/translate HTTP/1.1" 500 -
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.17.0.59:5000
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 660-840-081
+10.16.0.2 - - [29/Oct/2023 09:04:39] "POST /api/translate HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1478, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1458, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/app.py", line 74, in process_image
+    client = vision.ImageAnnotatorClient()
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/google/cloud/vision_v1/services/image_annotator/client.py", line 462, in __init__
+    self._transport = Transport(
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/google/cloud/vision_v1/services/image_annotator/transports/grpc.py", line 155, in __init__
+    super().__init__(
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/google/cloud/vision_v1/services/image_annotator/transports/base.py", line 103, in __init__
+    credentials, _ = google.auth.default(
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/google/auth/_default.py", line 691, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+10.16.0.2 - - [29/Oct/2023 09:05:53] "POST /api/translate HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1478, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1458, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/app.py", line 70, in process_image
+    file = request.files['image']
+  File "/usr/local/lib/python3.8/dist-packages/werkzeug/datastructures/structures.py", line 192, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+KeyError: 'image'
+127.0.0.1 - - [29/Oct/2023 09:06:27] "POST /translate HTTP/1.1" 404 -
+10.16.0.2 - - [29/Oct/2023 09:07:12] "POST /api/translate HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1478, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1458, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/app.py", line 74, in process_image
+    client = vision.ImageAnnotatorClient()
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/google/cloud/vision_v1/services/image_annotator/client.py", line 462, in __init__
+    self._transport = Transport(
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/google/cloud/vision_v1/services/image_annotator/transports/grpc.py", line 155, in __init__
+    super().__init__(
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/google/cloud/vision_v1/services/image_annotator/transports/base.py", line 103, in __init__
+    credentials, _ = google.auth.default(
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/google/auth/_default.py", line 691, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+10.16.0.2 - - [29/Oct/2023 09:08:10] "POST /api/translate HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1478, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1458, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/app.py", line 70, in process_image
+    file = request.files['image']
+  File "/usr/local/lib/python3.8/dist-packages/werkzeug/datastructures/structures.py", line 192, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+KeyError: 'image'
+10.16.0.2 - - [29/Oct/2023 09:08:11] "POST /api/translate HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1478, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1458, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/app.py", line 70, in process_image
+    file = request.files['image']
+  File "/usr/local/lib/python3.8/dist-packages/werkzeug/datastructures/structures.py", line 192, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+KeyError: 'image'
+10.16.0.2 - - [29/Oct/2023 09:08:15] "POST /api/translate HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1478, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1458, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/app.py", line 70, in process_image
+    file = request.files['image']
+  File "/usr/local/lib/python3.8/dist-packages/werkzeug/datastructures/structures.py", line 192, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+KeyError: 'image'
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.17.0.59:5000
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 135-400-972
+10.16.0.2 - - [29/Oct/2023 09:08:58] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [29/Oct/2023 09:09:06] "POST /api/translate HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1478, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1458, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/app.py", line 70, in process_image
+    file = request.files['image']
+  File "/usr/local/lib/python3.8/dist-packages/werkzeug/datastructures/structures.py", line 192, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+KeyError: 'image'
+10.16.0.2 - - [29/Oct/2023 09:09:51] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [29/Oct/2023 09:10:19] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [29/Oct/2023 09:10:30] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [29/Oct/2023 09:11:20] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [29/Oct/2023 09:11:34] "POST /api/translate HTTP/1.1" 200 -
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.17.0.59:5000
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 690-813-510
+10.16.0.2 - - [30/Oct/2023 07:53:47] "POST /api/translate HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1478, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1458, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/app.py", line 74, in process_image
+    client = vision.ImageAnnotatorClient()
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/google/cloud/vision_v1/services/image_annotator/client.py", line 462, in __init__
+    self._transport = Transport(
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/google/cloud/vision_v1/services/image_annotator/transports/grpc.py", line 155, in __init__
+    super().__init__(
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/google/cloud/vision_v1/services/image_annotator/transports/base.py", line 103, in __init__
+    credentials, _ = google.auth.default(
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/google/auth/_default.py", line 691, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+10.16.0.2 - - [30/Oct/2023 07:53:56] "POST /api/translate HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1478, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1458, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/app.py", line 74, in process_image
+    client = vision.ImageAnnotatorClient()
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/google/cloud/vision_v1/services/image_annotator/client.py", line 462, in __init__
+    self._transport = Transport(
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/google/cloud/vision_v1/services/image_annotator/transports/grpc.py", line 155, in __init__
+    super().__init__(
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/google/cloud/vision_v1/services/image_annotator/transports/base.py", line 103, in __init__
+    credentials, _ = google.auth.default(
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/google/auth/_default.py", line 691, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+10.16.0.2 - - [30/Oct/2023 07:54:16] "POST /api/translate HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1478, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1458, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/app.py", line 74, in process_image
+    client = vision.ImageAnnotatorClient()
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/google/cloud/vision_v1/services/image_annotator/client.py", line 462, in __init__
+    self._transport = Transport(
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/google/cloud/vision_v1/services/image_annotator/transports/grpc.py", line 155, in __init__
+    super().__init__(
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/google/cloud/vision_v1/services/image_annotator/transports/base.py", line 103, in __init__
+    credentials, _ = google.auth.default(
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/google/auth/_default.py", line 691, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+10.16.0.2 - - [30/Oct/2023 07:54:20] "POST /api/translate HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1478, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1458, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/app.py", line 74, in process_image
+    client = vision.ImageAnnotatorClient()
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/google/cloud/vision_v1/services/image_annotator/client.py", line 462, in __init__
+    self._transport = Transport(
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/google/cloud/vision_v1/services/image_annotator/transports/grpc.py", line 155, in __init__
+    super().__init__(
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/google/cloud/vision_v1/services/image_annotator/transports/base.py", line 103, in __init__
+    credentials, _ = google.auth.default(
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/google/auth/_default.py", line 691, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.17.0.59:5000
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 127-931-786
+10.16.0.2 - - [30/Oct/2023 07:55:04] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [30/Oct/2023 07:55:10] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [30/Oct/2023 07:55:20] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [30/Oct/2023 07:55:33] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [30/Oct/2023 07:57:26] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [30/Oct/2023 07:58:49] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [30/Oct/2023 07:59:39] "POST /api/translate HTTP/1.1" 200 -
+WAKE UP! IT'S AN EMERGENCY! MY BOWL IS EMPTY 깨우다! 긴급 상황입니다! 내 그릇이 비어 있어요
+WAKE UP! IT'S AN EMERGENCY! MY BOWL IS EMPTY 깨우다! 긴급 상황입니다! 내 그릇이 비어 있어요
+Nonreturn to Zero-Level (NRZ-L) 0 = high level 1 = low level Nonreturn to Zero Inverted (NRZI) 0 = no transition at beginning of interval (one bit time) 1 = transition at beginning of interval Bipolar-AMI 0 = no line signal 1 = positive or negative level, alternating for successive ones Pseudoternary 0 = positive or negative level, alternating for successive zeros 1 = no line signal Manchester 0 = transition from high to low in middle of interval 1 = transition from low to high in middle of interval Differential Manchester Always a transition in middle of interval 0 = transition at beginning of interval 1 = no transition at beginning of interval B8ZS Same as bipolar AMI, except that any string of eight zeros is replaced by a string with two code violations HDB3 Same as bipolar AMI, except that any string of four zeros is replaced by a string with one code violation NRZ-L(제로 레벨로 복귀하지 않음) 0 = 높은 레벨 1 = 낮은 레벨 NRZI(제로 레벨로 복귀하지 않음) 0 = 간격 시작 시 전환 없음(1비트 시간) 1 = 간격 시작 시 전환 양극성-AMI 0 = 라인 신호 없음 1 = 포지티브 또는 네거티브 레벨, 연속적인 레벨에 대해 교대로 유사 0 = 포지티브 또는 네거티브 레벨, 연속적인 0에 대해 교번 1 = 라인 신호 없음 맨체스터 0 = 간격 중간에 하이에서 로우로 전환 1 = 로우에서 하이로 전환 간격 중간에 차동 맨체스터 간격 중간에 항상 전환 0 = 간격 시작 시 전환 1 = 간격 시작 시 전환 없음 B8ZS 8개의 0으로 구성된 문자열이 2개의 코드 위반이 있는 문자열로 대체된다는 점을 제외하면 양극 AMI와 동일합니다. HDB3 4개의 0으로 구성된 문자열이 하나의 코드 위반이 있는 문자열로 대체된다는 점을 제외하면 양극성 AMI와 동일합니다.
+Nonreturn to Zero-Level (NRZ-L) 0 = high level 1 = low level Nonreturn to Zero Inverted (NRZI) 0 = no transition at beginning of interval (one bit time) 1 = transition at beginning of interval Bipolar-AMI 0 = no line signal 1 = positive or negative level, alternating for successive ones Pseudoternary 0 = positive or negative level, alternating for successive zeros 1 = no line signal Manchester 0 = transition from high to low in middle of interval 1 = transition from low to high in middle of interval Differential Manchester Always a transition in middle of interval 0 = transition at beginning of interval 1 = no transition at beginning of interval B8ZS Same as bipolar AMI, except that any string of eight zeros is replaced by a string with two code violations HDB3 Same as bipolar AMI, except that any string of four zeros is replaced by a string with one code violation NRZ-L(제로 레벨로 복귀하지 않음) 0 = 높은 레벨 1 = 낮은 레벨 NRZI(제로 레벨로 복귀하지 않음) 0 = 간격 시작 시 전환 없음(1비트 시간) 1 = 간격 시작 시 전환 양극성-AMI 0 = 라인 신호 없음 1 = 포지티브 또는 네거티브 레벨, 연속적인 레벨에 대해 교대로 유사 0 = 포지티브 또는 네거티브 레벨, 연속적인 0에 대해 교번 1 = 라인 신호 없음 맨체스터 0 = 간격 중간에 하이에서 로우로 전환 1 = 로우에서 하이로 전환 간격 중간에 차동 맨체스터 간격 중간에 항상 전환 0 = 간격 시작 시 전환 1 = 간격 시작 시 전환 없음 B8ZS 8개의 0으로 구성된 문자열이 2개의 코드 위반이 있는 문자열로 대체된다는 점을 제외하면 양극 AMI와 동일합니다. HDB3 4개의 0으로 구성된 문자열이 하나의 코드 위반이 있는 문자열로 대체된다는 점을 제외하면 양극성 AMI와 동일합니다.
+Nonreturn to Zero-Level (NRZ-L) 0 = high level 1 = low level Nonreturn to Zero Inverted (NRZI) 0 = no transition at beginning of interval (one bit time) 1 = transition at beginning of interval Bipolar-AMI 0 = no line signal 1 = positive or negative level, alternating for successive ones Pseudoternary 0 = positive or negative level, alternating for successive zeros 1 = no line signal Manchester 0 = transition from high to low in middle of interval 1 = transition from low to high in middle of interval Differential Manchester Always a transition in middle of interval 0 = transition at beginning of interval 1 = no transition at beginning of interval B8ZS Same as bipolar AMI, except that any string of eight zeros is replaced by a string with two code violations HDB3 Same as bipolar AMI, except that any string of four zeros is replaced by a string with one code violation NRZ-L(제로 레벨로 복귀하지 않음) 0 = 높은 레벨 1 = 낮은 레벨 NRZI(제로 레벨로 복귀하지 않음) 0 = 간격 시작 시 전환 없음(1비트 시간) 1 = 간격 시작 시 전환 양극성-AMI 0 = 라인 신호 없음 1 = 포지티브 또는 네거티브 레벨, 연속적인 레벨에 대해 교대로 유사 0 = 포지티브 또는 네거티브 레벨, 연속적인 0에 대해 교번 1 = 라인 신호 없음 맨체스터 0 = 간격 중간에 하이에서 로우로 전환 1 = 로우에서 하이로 전환 간격 중간에 차동 맨체스터 간격 중간에 항상 전환 0 = 간격 시작 시 전환 1 = 간격 시작 시 전환 없음 B8ZS 8개의 0으로 구성된 문자열이 2개의 코드 위반이 있는 문자열로 대체된다는 점을 제외하면 양극 AMI와 동일합니다. HDB3 4개의 0으로 구성된 문자열이 하나의 코드 위반이 있는 문자열로 대체된다는 점을 제외하면 양극성 AMI와 동일합니다.
+Nonreturn to Zero-Level (NRZ-L) 0 = high level 1 = low level Nonreturn to Zero Inverted (NRZI) 0 = no transition at beginning of interval (one bit time) 1 = transition at beginning of interval Bipolar-AMI 0 = no line signal 1 = positive or negative level, alternating for successive ones Pseudoternary 0 = positive or negative level, alternating for successive zeros 1 = no line signal Manchester 0 = transition from high to low in middle of interval 1 = transition from low to high in middle of interval Differential Manchester Always a transition in middle of interval 0 = transition at beginning of interval 1 = no transition at beginning of interval B8ZS Same as bipolar AMI, except that any string of eight zeros is replaced by a string with two code violations HDB3 Same as bipolar AMI, except that any string of four zeros is replaced by a string with one code violation NRZ-L(제로 레벨로 복귀하지 않음) 0 = 높은 레벨 1 = 낮은 레벨 NRZI(제로 레벨로 복귀하지 않음) 0 = 간격 시작 시 전환 없음(1비트 시간) 1 = 간격 시작 시 전환 양극성-AMI 0 = 라인 신호 없음 1 = 포지티브 또는 네거티브 레벨, 연속적인 레벨에 대해 교대로 유사 0 = 포지티브 또는 네거티브 레벨, 연속적인 0에 대해 교번 1 = 라인 신호 없음 맨체스터 0 = 간격 중간에 하이에서 로우로 전환 1 = 로우에서 하이로 전환 간격 중간에 차동 맨체스터 간격 중간에 항상 전환 0 = 간격 시작 시 전환 1 = 간격 시작 시 전환 없음 B8ZS 8개의 0으로 구성된 문자열이 2개의 코드 위반이 있는 문자열로 대체된다는 점을 제외하면 양극 AMI와 동일합니다. HDB3 4개의 0으로 구성된 문자열이 하나의 코드 위반이 있는 문자열로 대체된다는 점을 제외하면 양극성 AMI와 동일합니다.
+10.16.0.2 - - [30/Oct/2023 08:01:56] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [30/Oct/2023 08:02:21] "POST /api/translate HTTP/1.1" 200 -
+ * Detected change in '/home/ubuntu/app.py', reloading
+Nonreturn to Zero-Level (NRZ-L) 0 = high level 1 = low level Nonreturn to Zero Inverted (NRZI) 0 = no transition at beginning of interval (one bit time) 1 = transition at beginning of interval Bipolar-AMI 0 = no line signal 1 = positive or negative level, alternating for successive ones Pseudoternary 0 = positive or negative level, alternating for successive zeros 1 = no line signal Manchester 0 = transition from high to low in middle of interval 1 = transition from low to high in middle of interval Differential Manchester Always a transition in middle of interval 0 = transition at beginning of interval 1 = no transition at beginning of interval B8ZS Same as bipolar AMI, except that any string of eight zeros is replaced by a string with two code violations HDB3 Same as bipolar AMI, except that any string of four zeros is replaced by a string with one code violation NRZ-L(제로 레벨로 복귀하지 않음) 0 = 높은 레벨 1 = 낮은 레벨 NRZI(제로 레벨로 복귀하지 않음) 0 = 간격 시작 시 전환 없음(1비트 시간) 1 = 간격 시작 시 전환 양극성-AMI 0 = 라인 신호 없음 1 = 포지티브 또는 네거티브 레벨, 연속적인 레벨에 대해 교대로 유사 0 = 포지티브 또는 네거티브 레벨, 연속적인 0에 대해 교번 1 = 라인 신호 없음 맨체스터 0 = 간격 중간에 하이에서 로우로 전환 1 = 로우에서 하이로 전환 간격 중간에 차동 맨체스터 간격 중간에 항상 전환 0 = 간격 시작 시 전환 1 = 간격 시작 시 전환 없음 B8ZS 8개의 0으로 구성된 문자열이 2개의 코드 위반이 있는 문자열로 대체된다는 점을 제외하면 양극 AMI와 동일합니다. HDB3 4개의 0으로 구성된 문자열이 하나의 코드 위반이 있는 문자열로 대체된다는 점을 제외하면 양극성 AMI와 동일합니다.
+Nonreturn to Zero-Level (NRZ-L) 0 = high level 1 = low level Nonreturn to Zero Inverted (NRZI) 0 = no transition at beginning of interval (one bit time) 1 = transition at beginning of interval Bipolar-AMI 0 = no line signal 1 = positive or negative level, alternating for successive ones Pseudoternary 0 = positive or negative level, alternating for successive zeros 1 = no line signal Manchester 0 = transition from high to low in middle of interval 1 = transition from low to high in middle of interval Differential Manchester Always a transition in middle of interval 0 = transition at beginning of interval 1 = no transition at beginning of interval B8ZS Same as bipolar AMI, except that any string of eight zeros is replaced by a string with two code violations HDB3 Same as bipolar AMI, except that any string of four zeros is replaced by a string with one code violation NRZ-L(제로 레벨로 복귀하지 않음) 0 = 높은 레벨 1 = 낮은 레벨 NRZI(제로 레벨로 복귀하지 않음) 0 = 간격 시작 시 전환 없음(1비트 시간) 1 = 간격 시작 시 전환 양극성-AMI 0 = 라인 신호 없음 1 = 포지티브 또는 네거티브 레벨, 연속적인 레벨에 대해 교대로 유사 0 = 포지티브 또는 네거티브 레벨, 연속적인 0에 대해 교번 1 = 라인 신호 없음 맨체스터 0 = 간격 중간에 하이에서 로우로 전환 1 = 로우에서 하이로 전환 간격 중간에 차동 맨체스터 간격 중간에 항상 전환 0 = 간격 시작 시 전환 1 = 간격 시작 시 전환 없음 B8ZS 8개의 0으로 구성된 문자열이 2개의 코드 위반이 있는 문자열로 대체된다는 점을 제외하면 양극 AMI와 동일합니다. HDB3 4개의 0으로 구성된 문자열이 하나의 코드 위반이 있는 문자열로 대체된다는 점을 제외하면 양극성 AMI와 동일합니다.
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 127-931-786
+ * Detected change in '/home/ubuntu/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 127-931-786
+10.16.0.2 - - [30/Oct/2023 08:45:05] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [30/Oct/2023 08:45:05] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [30/Oct/2023 08:45:06] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [30/Oct/2023 08:45:06] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [30/Oct/2023 08:45:06] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [30/Oct/2023 08:45:06] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [30/Oct/2023 08:45:09] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [30/Oct/2023 08:45:09] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [30/Oct/2023 08:45:11] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [30/Oct/2023 08:45:12] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [30/Oct/2023 08:45:13] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [30/Oct/2023 08:45:47] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [30/Oct/2023 08:46:11] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [30/Oct/2023 08:51:59] "POST /api/translate HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1478, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1458, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/app.py", line 70, in process_image
+    file = request.files['image']
+  File "/usr/local/lib/python3.8/dist-packages/werkzeug/datastructures/structures.py", line 192, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+KeyError: 'image'
+10.16.0.2 - - [30/Oct/2023 08:53:28] "POST /api/translate HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1478, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1458, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/app.py", line 70, in process_image
+    file = request.files['image']
+  File "/usr/local/lib/python3.8/dist-packages/werkzeug/datastructures/structures.py", line 192, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+KeyError: 'image'
+10.16.0.2 - - [30/Oct/2023 08:54:18] "POST /api/translate HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1478, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1458, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/app.py", line 70, in process_image
+    file = request.files['image']
+  File "/usr/local/lib/python3.8/dist-packages/werkzeug/datastructures/structures.py", line 192, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+KeyError: 'image'
+10.16.0.2 - - [30/Oct/2023 09:47:54] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [30/Oct/2023 09:48:06] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [30/Oct/2023 09:48:11] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [30/Oct/2023 09:48:29] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [30/Oct/2023 09:52:52] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [30/Oct/2023 10:29:46] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [30/Oct/2023 13:19:41] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [30/Oct/2023 13:20:02] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [30/Oct/2023 13:20:19] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [30/Oct/2023 13:20:41] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [30/Oct/2023 14:24:10] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [30/Oct/2023 14:24:20] "POST /api/translate HTTP/1.1" 200 -
+WAKE UP! IT'S AN EMERGENCY! MY BOWL IS EMPTY 깨우다! 긴급 상황입니다! 내 그릇이 비어 있어요
+WAKE UP! IT'S AN EMERGENCY! MY BOWL IS EMPTY 깨우다! 긴급 상황입니다! 내 그릇이 비어 있어요
+WAKE UP! IT'S AN EMERGENCY! MY BOWL IS EMPTY 깨우다! 긴급 상황입니다! 내 그릇이 비어 있어요
+WAKE UP! IT'S AN EMERGENCY! MY BOWL IS EMPTY 깨우다! 긴급 상황입니다! 내 그릇이 비어 있어요
+WAKE UP! IT'S AN EMERGENCY! MY BOWL IS EMPTY 깨우다! 긴급 상황입니다! 내 그릇이 비어 있어요
+WAKE UP! IT'S AN EMERGENCY! MY BOWL IS EMPTY 깨우다! 긴급 상황입니다! 내 그릇이 비어 있어요
+WAKE UP! IT'S AN EMERGENCY! MY BOWL IS EMPTY 깨우다! 긴급 상황입니다! 내 그릇이 비어 있어요
+WAKE UP! IT'S AN EMERGENCY! MY BOWL IS EMPTY 깨우다! 긴급 상황입니다! 내 그릇이 비어 있어요
+WAKE UP! IT'S AN EMERGENCY! MY BOWL IS EMPTY 깨우다! 긴급 상황입니다! 내 그릇이 비어 있어요
+WAKE UP! IT'S AN EMERGENCY! MY BOWL IS EMPTY 깨우다! 긴급 상황입니다! 내 그릇이 비어 있어요
+WAKE UP! IT'S AN EMERGENCY! MY BOWL IS EMPTY 깨우다! 긴급 상황입니다! 내 그릇이 비어 있어요
+WAKE UP! IT'S AN EMERGENCY! MY BOWL IS EMPTY 깨우다! 긴급 상황입니다! 내 그릇이 비어 있어요
+WAKE UP! IT'S AN EMERGENCY! MY BOWL IS EMPTY 깨우다! 긴급 상황입니다! 내 그릇이 비어 있어요
+WAKE UP! IT'S AN EMERGENCY! MY BOWL IS EMPTY 깨우다! 긴급 상황입니다! 내 그릇이 비어 있어요
+Nonreturn to Zero-Level (NRZ-L) 0 = high level 1 = low level Nonreturn to Zero Inverted (NRZI) 0 = no transition at beginning of interval (one bit time) 1 = transition at beginning of interval Bipolar-AMI 0 = no line signal 1 = positive or negative level, alternating for successive ones Pseudoternary 0 = positive or negative level, alternating for successive zeros 1 = no line signal Manchester 0 = transition from high to low in middle of interval 1 = transition from low to high in middle of interval Differential Manchester Always a transition in middle of interval 0 = transition at beginning of interval 1 = no transition at beginning of interval B8ZS Same as bipolar AMI, except that any string of eight zeros is replaced by a string with two code violations HDB3 Same as bipolar AMI, except that any string of four zeros is replaced by a string with one code violation NRZ-L(제로 레벨로 복귀하지 않음) 0 = 높은 레벨 1 = 낮은 레벨 NRZI(제로 레벨로 복귀하지 않음) 0 = 간격 시작 시 전환 없음(1비트 시간) 1 = 간격 시작 시 전환 양극성-AMI 0 = 라인 신호 없음 1 = 포지티브 또는 네거티브 레벨, 연속적인 레벨에 대해 교대로 유사 0 = 포지티브 또는 네거티브 레벨, 연속적인 0에 대해 교번 1 = 라인 신호 없음 맨체스터 0 = 간격 중간에 하이에서 로우로 전환 1 = 로우에서 하이로 전환 간격 중간에 차동 맨체스터 간격 중간에 항상 전환 0 = 간격 시작 시 전환 1 = 간격 시작 시 전환 없음 B8ZS 8개의 0으로 구성된 문자열이 2개의 코드 위반이 있는 문자열로 대체된다는 점을 제외하면 양극 AMI와 동일합니다. HDB3 4개의 0으로 구성된 문자열이 하나의 코드 위반이 있는 문자열로 대체된다는 점을 제외하면 양극성 AMI와 동일합니다.
+A 味ひとすじ 永谷園 味ひとすじ 永谷園 P Assy 沢茶漬け とすじ 谷園 写真はイメージです 袋入 海苔がうまい 野沢菜 2袋 うめ 2袋 さけ 2袋 8 のり2袋 茶漬け 海苔がうまい 野沢菜 2袋 写真はイメージです 袋入 うめ 2袋 8 4種詰合せ のり2袋 うめ 2袋 真はイメージです 8袋入 4号4種詰合せ さけ 2袋 野沢菜 2袋 さけ 2袋 のり2袋 A 맛 히토스지 나가야엔 맛 히토스지 나가야엔 P Assy 사와차 절임 과 스지 야엔 사진은 이미지입니다 봉투입 김이 좋다 가방 넣어 우메 2 봉지 8 4 종 포장 풀 2 봉지 우메 2 봉지 진정한 이미지입니다 8 봉지 들어 4 호 4 종 포장 벼 2 봉지
+WAKE UP! IT'S AN EMERGENCY! MY BOWL IS EMPTY 깨우다! 긴급 상황입니다! 내 그릇이 비어 있어요
+こちら側からお開け下さい 味ひとすじ 永谷園 野沢菜 RO智 이쪽에서 열어주세요 맛 히토스지 나가야엔 노자와 나 RO 토모
+味ひとすじ นิย こちら側からお開け下さい KISS 1 맛 히토스지 นิย 이쪽에서 열어주세요 KISS 1
+こちら側からお開け下さい HH 味ひとすじ 永谷園 1 茶渍 野沢菜 <作方> ①茶力L輕ㄑ一杯の乙飯(100g)在 盛り、お茶づけの素をかける。 ②6湯(15000)在注ACC去南分。 17 授權發展,加 이쪽에서 열어주세요 HH 맛 히토스지 나가타니엔 1 차동 노자와 나 &lt;작방&gt; ①차력 L배 ㄑ 한 잔의 을반(100g)재 담아, 차 붙이의 소를 거는다. ②6탕(15000)재주 ACC거남분. 17 수 權發展, 카
+Nonreturn to Zero-Level (NRZ-L) 0 = high level 1 = low level Nonreturn to Zero Inverted (NRZI) 0 = no transition at beginning of interval (one bit time) 1 = transition at beginning of interval Bipolar-AMI 0 = no line signal 1 = positive or negative level, alternating for successive ones Pseudoternary 0 = positive or negative level, alternating for successive zeros 1 = no line signal Manchester 0 = transition from high to low in middle of interval 1 = transition from low to high in middle of interval Differential Manchester Always a transition in middle of interval 0 = transition at beginning of interval 1 = no transition at beginning of interval B8ZS Same as bipolar AMI, except that any string of eight zeros is replaced by a string with two code violations HDB3 Same as bipolar AMI, except that any string of four zeros is replaced by a string with one code violation NRZ-L(제로 레벨로 복귀하지 않음) 0 = 높은 레벨 1 = 낮은 레벨 NRZI(제로 레벨로 복귀하지 않음) 0 = 간격 시작 시 전환 없음(1비트 시간) 1 = 간격 시작 시 전환 양극성-AMI 0 = 라인 신호 없음 1 = 포지티브 또는 네거티브 레벨, 연속적인 레벨에 대해 교대로 유사 0 = 포지티브 또는 네거티브 레벨, 연속적인 0에 대해 교번 1 = 라인 신호 없음 맨체스터 0 = 간격 중간에 하이에서 로우로 전환 1 = 로우에서 하이로 전환 간격 중간에 차동 맨체스터 간격 중간에 항상 전환 0 = 간격 시작 시 전환 1 = 간격 시작 시 전환 없음 B8ZS 8개의 0으로 구성된 문자열이 2개의 코드 위반이 있는 문자열로 대체된다는 점을 제외하면 양극 AMI와 동일합니다. HDB3 4개의 0으로 구성된 문자열이 하나의 코드 위반이 있는 문자열로 대체된다는 점을 제외하면 양극성 AMI와 동일합니다.
+Weldon, Stephen P. "The Social Construc- tion of Science." In Science and Religion: A Historical Introduction, ed. Gary B. Fern- gren. Baltimore: Johns Hopkins Univer- sity Press, 2002, 374-80. Westfall, Richard S. Science and Religion in Seventeenth-Century England. New Haven: Yale University Press, 1958. Wilson, David B. "The Historiography of Science and Religion." In Science and Reli- gion: A Historical Introduction, ed. Gary B. Ferngren. Baltimore: Johns Hopkins Uni- versity Press, 2002, 13 - 29. Wilson, David Sloan. “On the Importance of Eliminating Science and Religion from the History of Science and Religion: The Cases of Oliver Lodge, J. H. Jeans, and A. S. Eddington." In Facets of Faith and Sci- ence, ed. Jitse M. van der Meer. Lanham, Md.: Pascal Centre for Advanced Studies in Faith and Science, 1996, 27-47. 1 minute left in sample 38% 10.16.0.2 - - [30/Oct/2023 14:25:31] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [30/Oct/2023 15:12:50] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [31/Oct/2023 03:39:26] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [31/Oct/2023 03:47:00] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [31/Oct/2023 03:48:35] "POST /api/translate HTTP/1.1" 200 -
+Weldon, Stephen P. “과학의 사회적 구성.” 과학과 종교: 역사적 소개, ed. Gary B. Fern-gren. 볼티모어: Johns Hopkins University Press, 2002, 374-80. Westfall, Richard S. 17세기 영국의 과학과 종교. 뉴 헤이븐: 예일 대학교 출판부, 1958년. 윌슨, 데이비드 B. “과학과 종교의 역사서.” 과학과 종교: 역사적 소개, ed. 게리 B. 페른그렌. 볼티모어: Johns Hopkins University Press, 2002, 13 - 29. Wilson, David Sloan. “과학과 종교의 역사에서 과학과 종교를 제거하는 것의 중요성: Oliver Lodge, JH Jeans 및 AS Eddington의 사례.&quot; In Facets of Faith and Science, ed. Jitse M. van der Meer. Lanham , Md.: Pascal Center for Advanced Studies in Faith and Science, 1996, 27-47. 표본에 1분 남음 38%
+IB (International Baccalaureate) ● 프랑스 바칼로레아 (https://www.youtube.com/watch?v=aep-xuua9xk), 스위스에 있는 비영리 공적 교육재단 국제 바칼로레아 기 구(IBO)가 주관하는 국제공인 교육과정으로 전과목이 논 술형 시험으로 진행 (https://www.youtube.com/watch?v=NkUY3rg1jG4) 1968년 시행, 전 세계 158개국 이상 7000여개 학교에서 적용, 세계 여러 대학에서 대입 시험으로 인정 기존에는 영어, 프랑스어, 스페인어로 운영 2013년 일본이 자국어로 번역해 공립학교 도입, 2018년 한국어 과 정 시작 • 우리나라 경우 (https://youtu.be/vNtuleCKHFM?si=iXD6ZjIP8HzOyMX3) • 제주, 대구 등 일부 교육청이 IB의 공교육 도입 추진(2018) 일부 국제학교, 경기외고 등 국제고 및 자사고에서 영어로 도입 및 운영 ● "국내 첫 국공립 고등학교 IB인증" (2021.10.04) IB (International Baccalaureate) ● French Baccalaureate (https://www.youtube.com/watch?v=aep-xuua9xk), an internationally recognized curriculum hosted by the International Baccalaureate Organization (IBO), a non-profit public education foundation located in Switzerland. All subjects are essay-type exams (https://www.youtube.com/watch?v=NkUY3rg1jG4) Implemented in 1968, applied in over 7,000 schools in more than 158 countries around the world, and recognized as a college entrance exam by many universities around the world. Previously, English , operated in French and Spanish. In 2013, Japan translated it into its native language and introduced it to public schools. Korean language course began in 2018. • In Korea (https://youtu.be/vNtuleCKHFM?si=iXD6ZjIP8HzOyMX3) • Some education offices such as Jeju and Daegu have IB Promoting the introduction of public education (2018) Introduced and operated in English in some international schools and private high schools such as Gyeonggi Foreign Language High School ● &quot;IB Certification for Korea&#39;s first national and public high school&quot; (2021.10.04)
+WAKE UP! IT'S AN EMERGENCY! MY BOWL IS EMPTY 깨우다! 긴급 상황입니다! 내 그릇이 비어 있어요
+WAKE UP! IT'S AN EMERGENCY! MY BOWL IS EMPTY 깨우다! 긴급 상황입니다! 내 그릇이 비어 있어요
+양이 YBM(한) ㅁ architect 건축가 inspire 영감을 주다 most 대부분의 industrialized 산업화된 ㅁ produce 생산하다, (사람을) 배출하다 □ claim 주장하다 Architect Gaudi Inspired by Nature claim 주장 make a claim 주장하다 embarrassment 당황 summit 정상 architectural 건축의 ㅁ genius 천재 ] fascinate 매료시키다 o surround 둘러싸다 wonder 경이 (로움) Surrounding 인근의, 주위의 Countryside 시골 지역, 전원지대 Hom interest 관심 1 deeply 깊이 그 □ form 형태 influence 영향을 주다 be full of ~으로 가득 차 있다 □ curved 곡선의 □ straight 곧은, 똑바른 construction 건축물 □ shape (어떤) 모양으로 만들다 work 작품 □ bold 대담한, 선명한 decorate 장식하나 colorful 형형색색의, 다채로운 tile 타일 *** FOR *** (P THAT IN on MUMMY I sad sunce const NGA ENNE I -1- ㅁ create 만들어 내다 o breathtaking (너무 아름답거나 놀라워 서) 숨이 막히는 ㅁ visual 시각적인 Parc Güell ㅁ decorative 장식이 된, 장식적인 ㅁ complete 완성하다 ㅁ admire 감탄하다 □ style 방식, (옷의) 스타일 (건축) 양식 10 19000 | FA combination 조합, 결합 D contain ~이 들어있다 AMENO I POSR tyc KEWS I INERE I structure 구조물, 건축물 ㅁ gorgeous 아주 멋진 ㅁ entrance 입구 ☐ fountain 분수 13 was a RFECT □ symbol 상징(물) ☐ beyond Casa Balko o renovate 개조하다 O original 원래의 o purchase 구입하다 □ add 더하다 Dimpressive 인상적인 □ touch 손길 ☐ skull 해골 ㅁ balcony 발코니 탑역 광역 www ㅁ/support 지지하다 o column 기둥 ㅁ detail 세부 사항 onickname 별명 ㅁ decorate 장식하다 □ shape 모양 Yang YBM (one) ㅁ architect architect inspire most most industrialized ㅁ produce produce, produce (a person) □ claim claim Architect Gaudi Inspired by Nature claim claim make a claim make a claim embarrassment embarrassed summit summit architectural genius genius ] fascinate fascinate o surround wonder Surrounding nearby, around Countryside Hom interest 1 deeply that □ form influence be full of full □ curved □ straight construction □ shape work □ bold bold, vivid decorate colorful colorful tile *** FOR *** (P THAT) IN on MUMMY I sad sunce const NGA ENNE I -1- ㅁ create o breathtaking (so beautiful or surprising) that takes one&#39;s breath ㅁ visual Parc Güell ㅁ decorative decorated, decorative ㅁ complete complete ㅁ admire do □ style way, (of clothes) style (architectural) form 10 19000 | FA combination combination, combination D contain ~ contains ~ AMENO I POSR tyc KEWS I INERE I structure structure, building ㅁ gorgeous very nice entrance ☐ fountain fountain 13 was a RFECT □ symbol symbol (water) ☐ beyond Casa Balko o renovate renovate O original original o purchase purchase □ add Dimpressive impressive □ touch touch ☐ skull ㅁ balcony balcony top station wide area www ㅁ/support support o column pillar ㅁ detail detail onickname nickname ㅁ decorate decorate □ shape shape
+양이 YBM(한) ㅁ architect 건축가 inspire 영감을 주다 most 대부분의 industrialized 산업화된 ㅁ produce 생산하다, (사람을) 배출하다 □ claim 주장하다 Architect Gaudi Inspired by Nature claim 주장 make a claim 주장하다 embarrassment 당황 summit 정상 architectural 건축의 ㅁ genius 천재 ] fascinate 매료시키다 o surround 둘러싸다 wonder 경이 (로움) Surrounding 인근의, 주위의 Countryside 시골 지역, 전원지대 Hom interest 관심 1 deeply 깊이 그 □ form 형태 influence 영향을 주다 be full of ~으로 가득 차 있다 □ curved 곡선의 □ straight 곧은, 똑바른 construction 건축물 □ shape (어떤) 모양으로 만들다 work 작품 □ bold 대담한, 선명한 decorate 장식하나 colorful 형형색색의, 다채로운 tile 타일 *** FOR *** (P THAT IN on MUMMY I sad sunce const NGA ENNE I -1- ㅁ create 만들어 내다 o breathtaking (너무 아름답거나 놀라워 서) 숨이 막히는 ㅁ visual 시각적인 Parc Güell ㅁ decorative 장식이 된, 장식적인 ㅁ complete 완성하다 ㅁ admire 감탄하다 □ style 방식, (옷의) 스타일 (건축) 양식 10 19000 | FA combination 조합, 결합 D contain ~이 들어있다 AMENO I POSR tyc KEWS I INERE I structure 구조물, 건축물 ㅁ gorgeous 아주 멋진 ㅁ entrance 입구 ☐ fountain 분수 13 was a RFECT □ symbol 상징(물) ☐ beyond Casa Balko o renovate 개조하다 O original 원래의 o purchase 구입하다 □ add 더하다 Dimpressive 인상적인 □ touch 손길 ☐ skull 해골 ㅁ balcony 발코니 탑역 광역 www ㅁ/support 지지하다 o column 기둥 ㅁ detail 세부 사항 onickname 별명 ㅁ decorate 장식하다 □ shape 모양 10.16.0.2 - - [31/Oct/2023 03:48:37] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [31/Oct/2023 03:49:01] "POST /api/translate HTTP/1.1" 200 -
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.17.0.59:5000
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 306-042-716
+10.16.0.2 - - [01/Nov/2023 05:59:01] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [01/Nov/2023 05:59:08] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [01/Nov/2023 11:51:23] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [01/Nov/2023 11:51:55] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [01/Nov/2023 11:52:50] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [01/Nov/2023 11:53:12] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [01/Nov/2023 11:53:14] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [02/Nov/2023 03:50:53] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [02/Nov/2023 03:59:19] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [03/Nov/2023 06:38:46] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [03/Nov/2023 06:39:27] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [07/Nov/2023 13:52:43] "POST /api/translate HTTP/1.1" 200 -
+ * Detected change in '/home/ubuntu/app.py', reloading
+WAKE UP! IT'S AN EMERGENCY! MY BOWL IS EMPTY 깨우다! 긴급 상황입니다! 내 그릇이 비어 있어요
+WAKE UP! IT'S AN EMERGENCY! MY BOWL IS EMPTY 깨우다! 긴급 상황입니다! 내 그릇이 비어 있어요
+11:15 네이버 웹툰 < 130 지 지 지 + 엄마 황병훈 나도먹을래 빙수 엄마 그땐 샌위랑 같이시켰는데..일단 알겠음 “ 냉장고에 있는거는 다른 집꺼임 황병훈 크 일어나야 사주지 그거 금방 녹는데 냉장고 그룹채팅 3 황병훈 뭐가안돼 " 오후 11:14 오후 11:10 오후 11:14 ... 오후 11:14 오후 10:20 저번에먹엇던거 오후 11:14 Q = 52 오후 11:14 오후 10:19 1인빙수 오후 10:22 안대 8 헷 11:15 Naver Webtoon &lt; 130 Ji Ji Ji + Mom Hwang Byeong-hoon, I want to eat shaved ice too. Mom, I ordered it with my son-in-law back then... I understand for now. “The stuff in the refrigerator is from someone else’s house. Hwang Byeong-hoon, I’ll buy it for you when you wake up. It melts quickly. Refrigerator group chat 3 Byeong-hoon Hwang. What&#39;s wrong? &quot; 11:14 PM 11:10 PM 11:14 PM ... 11:14 PM 10:20 What I ate last time 11:14 PM Q = 52 11:14 PM 10:19 PM 1 serving of shaved ice 10 PM :22 eye patch 8 het
+הַל הַלְמֶלֶךְ הַמְמֶלֶךְ הַמֶּלֶךְ אוֹר הָאוֹר עַיִן הָעַיִן רֹאשׁ הָרֹאשׁ הֵיכָל הַהֵיכָל חֹשֶׁךְ הַחֹשֶׁךְ הָרִים הֶהָרִים עָפָר הֶעָפָר חָכָם הֶחָכָם הָיִל הֶחָיִל הָר הָהָר עָז הָעָז 신 왕 왕 왕 왕 광명 빛 눈 눈 머리 머리 궁궐 어둠 어둠 산 산 티끌 티끌 지혜자 G
+● ご案内 2 サンパレスは自然に囲まれたホテルです。 この時期、窓を開けると虫さん達が入って来ますの 窓を開けない様、お願い致します。。 お客様のご理解とご協力の程、宜しくお願い致します Now, the window does not open 지금, 창문 여는 것이 할 수 없기 這是不可能的現在, 窗口打開 出 北 ● 안내 2 선 팰리스는 자연에 둘러싸인 호텔입니다. 이 시기, 창을 열면 벌레 씨들이 들어옵니다의 창을 열 수 없는 님, 부탁드립니다. . 고객의 이해와 협력의 정도, 잘 부탁드립니다 Now, the window does not open 지금, 창문 여는 것이 할 수 없기
+● ご案内 2 サンパレスは自然に囲まれたホテルです。 この時期、窓を開けると虫さん達が入って来ますの 窓を開けない様、お願い致します。。 お客様のご理解とご協力の程、宜しくお願い致します Now, the window does not open 지금, 창문 여는 것이 할 수 없기 這是不可能的現在, 窗口打開 出 北 ● 안내 2 선 팰리스는 자연에 둘러싸인 호텔입니다. 이 시기, 창을 열면 벌레 씨들이 들어옵니다의 창을 열 수 없는 님, 부탁드립니다. . 고객의 이해와 협력의 정도, 잘 부탁드립니다 Now, the window does not open 지금, 창문 여는 것이 할 수 없기
+WAKE UP! IT'S AN EMERGENCY! MY BOWL IS EMPTY 깨우다! 긴급 상황입니다! 내 그릇이 비어 있어요
+VIDIA halted the supply of its AD102 chips in August to keep the pricing of the GeForce RTX 4090 in check. It's N been roughly three months, and shipments of the top-end GeForce GPU have remained scant. According to @Zed_Wang, it's unclear whether the supply of the AD102 for the RTX 4090 will ever return to normal. As reported, prices of the Ada Lovelace flagship are rising, with the cheapest SKUs now starting at $1,700, up from the initial $1,600. VIDIA는 GeForce RTX 4090의 가격을 유지하기 위해 8월에 AD102 칩 공급을 중단했습니다. N은 약 3개월이 지났고 최고급 GeForce GPU의 출하량은 여전히 부족했습니다. @Zed_Wang에 따르면 RTX 4090용 AD102 공급이 정상으로 돌아올지는 불분명합니다. 보고된 대로 Ada Lovelace 플래그십의 가격이 상승하고 있으며 가장 저렴한 SKU는 현재 초기 $1,600에서 인상된 $1,700부터 시작합니다.
+OPEN BOURBON ブランチュール ホワイトチョコ & ラングドシャクッキー OPEN OPEN BOURBON 브랜츄 화이트 초콜릿 &amp; 랑그도샤쿠키 OPEN
+Knorr 切り口 カップスープ つぶたっぷり コーンクリーム 100% 指定農場栽培 スーパースイートコーンの つぶコーンが たっぷり入った Sr. コーン風味豊かな コーンクリームスープです。 ・切り口〉 Knor カップスペプ つぶたっぷり コーンクリーム 100% 指定農場栽培 スーパースイートコーン つぶコーンが たっぷり入った コーン風味豊かな コーンクリームスープです。 Knorr 커트 컵 스프 딱딱한 옥수수 크림 100% 지정 농장 재배 슈퍼 스위트 옥수수 콘이 듬뿍 들어간 Sr. 옥수수 풍미 풍부한 옥수수 크림 수프입니다.・절단&gt; Knor 컵 스프 트부풀 콘크림 100% 지정 농장 재배 슈퍼 스위트 콘 츠부콘이 듬뿍 들어간 콘 풍미 풍부한 옥수수 크림 스프입니다.
+WAKE UP! IT'S AN EMERGENCY! MY BOWL IS EMPTY 깨우다! 긴급 상황입니다! 내 그릇이 비어 있어요
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 306-042-716
+ * Detected change in '/home/ubuntu/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 306-042-716
+ * Detected change in '/home/ubuntu/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 306-042-716
+ * Detected change in '/home/ubuntu/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 306-042-716
+ * Detected change in '/home/ubuntu/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 306-042-716
+ * Detected change in '/home/ubuntu/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 306-042-716
+ * Detected change in '/home/ubuntu/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 306-042-716
+ * Detected change in '/home/ubuntu/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 306-042-716
+10.16.0.2 - - [07/Nov/2023 14:05:00] "POST /api/translate HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1478, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1458, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/app.py", line 101, in process_image
+    return jsonify(response_data)
+  File "/usr/local/lib/python3.8/dist-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/flask/json/provider.py", line 215, in response
+    f"{self.dumps(obj, **dump_args)}\n", mimetype=self.mimetype
+  File "/usr/local/lib/python3.8/dist-packages/flask/json/provider.py", line 180, in dumps
+    return json.dumps(obj, **kwargs)
+  File "/usr/lib/python3.8/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/usr/lib/python3.8/json/encoder.py", line 201, in encode
+    chunks = list(chunks)
+  File "/usr/lib/python3.8/json/encoder.py", line 431, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/usr/lib/python3.8/json/encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.8/json/encoder.py", line 325, in _iterencode_list
+    yield from chunks
+  File "/usr/lib/python3.8/json/encoder.py", line 438, in _iterencode
+    o = _default(o)
+  File "/usr/local/lib/python3.8/dist-packages/flask/json/provider.py", line 120, in _default
+    raise TypeError(f"Object of type {type(o).__name__} is not JSON serializable")
+TypeError: Object of type BytesIO is not JSON serializable
+10.16.0.2 - - [07/Nov/2023 14:14:37] "POST /api/translate HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1478, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1458, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/app.py", line 101, in process_image
+    return jsonify(response_data)
+  File "/usr/local/lib/python3.8/dist-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/flask/json/provider.py", line 215, in response
+    f"{self.dumps(obj, **dump_args)}\n", mimetype=self.mimetype
+  File "/usr/local/lib/python3.8/dist-packages/flask/json/provider.py", line 180, in dumps
+    return json.dumps(obj, **kwargs)
+  File "/usr/lib/python3.8/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/usr/lib/python3.8/json/encoder.py", line 201, in encode
+    chunks = list(chunks)
+  File "/usr/lib/python3.8/json/encoder.py", line 431, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/usr/lib/python3.8/json/encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.8/json/encoder.py", line 325, in _iterencode_list
+    yield from chunks
+  File "/usr/lib/python3.8/json/encoder.py", line 438, in _iterencode
+    o = _default(o)
+  File "/usr/local/lib/python3.8/dist-packages/flask/json/provider.py", line 120, in _default
+    raise TypeError(f"Object of type {type(o).__name__} is not JSON serializable")
+TypeError: Object of type BytesIO is not JSON serializable
+ * Detected change in '/home/ubuntu/app.py', reloading
+Audio content written to file "output.mp3"
+WAKE UP! IT'S AN EMERGENCY! MY BOWL IS EMPTY 깨우다! 긴급 상황입니다! 내 그릇이 비어 있어요
+Audio content written to file "output.mp3"
+WAKE UP! IT'S AN EMERGENCY! MY BOWL IS EMPTY 깨우다! 긴급 상황입니다! 내 그릇이 비어 있어요
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 306-042-716
+ * Detected change in '/home/ubuntu/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 306-042-716
+ * Detected change in '/home/ubuntu/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 306-042-716
+10.16.0.2 - - [07/Nov/2023 14:16:56] "POST /api/translate HTTP/1.1" 200 -
+ * Detected change in '/home/ubuntu/app.py', reloading
+Audio content written to file "output.mp3"
+WAKE UP! IT'S AN EMERGENCY! MY BOWL IS EMPTY 깨우다! 긴급 상황입니다! 내 그릇이 비어 있어요
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 306-042-716
+ * Detected change in '/home/ubuntu/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 306-042-716
+10.16.0.2 - - [07/Nov/2023 14:30:19] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [07/Nov/2023 14:33:18] "POST /api/translate HTTP/1.1" 200 -
+ * Detected change in '/home/ubuntu/app.py', reloading
+Audio content written to file "output.mp3"
+WAKE UP! IT'S AN EMERGENCY! MY BOWL IS EMPTY 깨우다! 긴급 상황입니다! 내 그릇이 비어 있어요
+Audio content written to file "output.mp3"
+WAKE UP! IT'S AN EMERGENCY! MY BOWL IS EMPTY 깨우다! 긴급 상황입니다! 내 그릇이 비어 있어요
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 306-042-716
+10.16.0.2 - - [07/Nov/2023 14:34:23] "POST /api/translate HTTP/1.1" 200 -
+ * Detected change in '/home/ubuntu/app.py', reloading
+Audio content written to file "output.mp3"
+WAKE UP! IT'S AN EMERGENCY! MY BOWL IS EMPTY 깨우다! 긴급 상황입니다! 내 그릇이 비어 있어요
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 306-042-716
+10.16.0.2 - - [07/Nov/2023 14:36:19] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [07/Nov/2023 14:36:29] "POST /api/translate HTTP/1.1" 200 -
+ * Detected change in '/home/ubuntu/app.py', reloading
+Audio content written to file "output.mp3"
+WAKE UP! IT'S AN EMERGENCY! MY BOWL IS EMPTY 깨우다! 긴급 상황입니다! 내 그릇이 비어 있어요
+Audio content written to file "output.mp3"
+WAKE UP! IT'S AN EMERGENCY! MY BOWL IS EMPTY 깨우다! 긴급 상황입니다! 내 그릇이 비어 있어요
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 306-042-716
+ * Detected change in '/home/ubuntu/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 306-042-716
+ * Detected change in '/home/ubuntu/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 306-042-716
+10.16.0.2 - - [07/Nov/2023 14:51:52] "POST /api/translate HTTP/1.1" 200 -
+ * Detected change in '/home/ubuntu/app.py', reloading
+Audio content written to file "output.mp3"
+WAKE UP! IT'S AN EMERGENCY! MY BOWL IS EMPTY 깨우다! 긴급 상황입니다! 내 그릇이 비어 있어요
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 306-042-716
+10.16.0.2 - - [07/Nov/2023 14:56:13] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [07/Nov/2023 14:57:28] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [07/Nov/2023 14:57:48] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [07/Nov/2023 14:59:21] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [07/Nov/2023 15:03:27] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [07/Nov/2023 15:12:09] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [07/Nov/2023 15:12:15] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [07/Nov/2023 15:13:43] "POST /api/translate HTTP/1.1" 200 -
+Audio content written to file "output.mp3"
+WAKE UP! IT'S AN EMERGENCY! MY BOWL IS EMPTY 깨우다! 긴급 상황입니다! 내 그릇이 비어 있어요
+Audio content written to file "output.mp3"
+WAKE UP! IT'S AN EMERGENCY! MY BOWL IS EMPTY 깨우다! 긴급 상황입니다! 내 그릇이 비어 있어요
+Audio content written to file "output.mp3"
+Nonreturn to Zero-Level (NRZ-L) 0 = high level 1 = low level Nonreturn to Zero Inverted (NRZI) 0 = no transition at beginning of interval (one bit time) 1 = transition at beginning of interval Bipolar-AMI 0 = no line signal 1 = positive or negative level, alternating for successive ones Pseudoternary 0 = positive or negative level, alternating for successive zeros 1 = no line signal Manchester 0 = transition from high to low in middle of interval 1 = transition from low to high in middle of interval Differential Manchester Always a transition in middle of interval 0 = transition at beginning of interval 1 = no transition at beginning of interval B8ZS Same as bipolar AMI, except that any string of eight zeros is replaced by a string with two code violations HDB3 Same as bipolar AMI, except that any string of four zeros is replaced by a string with one code violation NRZ-L(제로 레벨로 복귀하지 않음) 0 = 높은 레벨 1 = 낮은 레벨 NRZI(제로 레벨로 복귀하지 않음) 0 = 간격 시작 시 전환 없음(1비트 시간) 1 = 간격 시작 시 전환 양극성-AMI 0 = 라인 신호 없음 1 = 포지티브 또는 네거티브 레벨, 연속적인 레벨에 대해 교대로 유사 0 = 포지티브 또는 네거티브 레벨, 연속적인 0에 대해 교번 1 = 라인 신호 없음 맨체스터 0 = 간격 중간에 하이에서 로우로 전환 1 = 로우에서 하이로 전환 간격 중간에 차동 맨체스터 간격 중간에 항상 전환 0 = 간격 시작 시 전환 1 = 간격 시작 시 전환 없음 B8ZS 8개의 0으로 구성된 문자열이 2개의 코드 위반이 있는 문자열로 대체된다는 점을 제외하면 양극 AMI와 동일합니다. HDB3 4개의 0으로 구성된 문자열이 하나의 코드 위반이 있는 문자열로 대체된다는 점을 제외하면 양극성 AMI와 동일합니다.
+Audio content written to file "output.mp3"
+FELTON ROAD EST LISHED 1991 Calvert PINOT NOIR CENTRAL OTAGO 2021 PRODUCED AND BOTTLED BY FELTON ROAD WINES LTD BANNOCKBURN GRAPES GROWN AT CALVERT VINEYARD Wine of New Zealand FELTON ROAD EST LISHED 1991 Calvert PINOT NOIR CENTRAL OTAGO 2021 FELTON ROAD WINES LTD에서 생산 및 병입 CALVERT VINEYARD에서 재배한 BANNOCKBURN 포도 뉴질랜드 와인
+Audio content written to file "output.mp3"
+FELTON ROAD EST LISHED 1991 Calvert PINOT NOIR CENTRAL OTAGO 2021 PRODUCED AND BOTTLED BY FELTON ROAD WINES LTD BANNOCKBURN GRAPES GROWN AT CALVERT VINEYARD Wine of New Zealand FELTON ROAD EST LISHED 1991 Calvert PINOT NOIR CENTRAL OTAGO 2021 FELTON ROAD WINES LTD에서 생산 및 병입 CALVERT VINEYARD에서 재배한 BANNOCKBURN 포도 뉴질랜드 와인
+Audio content written to file "output.mp3"
+인쇄후 색상과 위치,기울기는 시안과 다소 차이가 있을 수 있습니다 ★ 제품의 (인쇄,조립,색상) 특성상 인쇄 후 기스가 있을 수 있습니다. 이는,불량이 아닙니다 ★ 인쇄 시 얇은 선의 경우 끊김이 세밀한 부분은 뭉침이 발생할 수 있습니다. ★ 너무 작은 로고나 글씨의 경우 인쇄뭉침이 있을 수 있습니다 ★ 정사각형/정원형의 이미지는 텀블러 형태의 특성상 인쇄시 사이즈가 변형이 될 수 있습니다. ★ 정전기로 인해 면이 넓은 시안은 먼지로 인해 먼지 자국으로 고르지 않을 수 있습니다 ★ 펜톤넘버가 없는경우,시안과 인쇄 색상의 명도 차이가 날 수 있습니다.이는, 불량이 아닙니다 ★ 제품의 색상에 따라 인쇄색상이 시안과 다를 수 있습니다. 소재특성으로 불량이 아닙니다. ★ 시안 확인시 오타확인 포함 시안을 꼼꼼히 확인 해 주세요, 인쇄 후 교환 환불이 불가 합니다. 나이아드 500ml 171mm(뚜껑포함) 88mm AJOU SOFT 인쇄색상 검정 인쇄위치: 상단중앙 인쇄내용(확대시안) AJOU SOFT 인쇄사이즈:가로 50 mm 세로 4.6991 mm The color, position, and tilt after printing may differ slightly from the original draft. ★ Due to the nature of the product (printing, assembly, color), there may be scratches after printing. This is not a defect. ★ When printing, in the case of thin lines, clumping may occur in areas with detailed breaks. ★ If the logo or text is too small, there may be print clumps. ★ Square/garden images may be distorted in size when printed due to the nature of the tumbler shape. ★ Due to static electricity, the wide-sided cyan may be uneven due to dust marks due to dust. ★ If there is no penton number, there may be a difference in brightness between the cyan and the printed color. This is not a defect. ★ Printed according to the color of the product. Color may differ from cyan. It is not a defect due to the characteristics of the material. ★ When checking the draft, please check the draft carefully, including checking for typos. Exchanges and refunds are not possible after printing. Naiad 500ml 171mm (including lid) 88mm AJOU SOFT Print color Black Print location: Top center Print contents (enlarged version) AJOU SOFT Print size: Width 50 mm Height 4.6991 mm
+Audio content written to file "output.mp3"
+인쇄후 색상과 위치,기울기는 시안과 다소 차이가 있을 수 있습니다 ★ 제품의 (인쇄,조립,색상) 특성상 인쇄 후 기스가 있을 수 있습니다. 이는,불량이 아닙니다 ★ 인쇄 시 얇은 선의 경우 끊김이 세밀한 부분은 뭉침이 발생할 수 있습니다. ★ 너무 작은 로고나 글씨의 경우 인쇄뭉침이 있을 수 있습니다 ★ 정사각형/정원형의 이미지는 텀블러 형태의 특성상 인쇄시 사이즈가 변형이 될 수 있습니다. ★ 정전기로 인해 면이 넓은 시안은 먼지로 인해 먼지 자국으로 고르지 않을 수 있습니다 ★ 펜톤넘버가 없는경우,시안과 인쇄 색상의 명도 차이가 날 수 있습니다.이는, 불량이 아닙니다 ★ 제품의 색상에 따라 인쇄색상이 시안과 다를 수 있습니다. 소재특성으로 불량이 아닙니다. ★ 시안 확인시 오타확인 포함 시안을 꼼꼼히 확인 해 주세요, 인쇄 후 교환 환불이 불가 합니다. 나이아드 500ml 171mm(뚜껑포함) 88mm AJOU SOFT 인쇄색상 검정 인쇄위치: 상단중앙 인쇄내용(확대시안) AJOU SOFT 인쇄사이즈:가로 50 mm 세로 4.6991 mm The color, position, and tilt after printing may differ slightly from the original draft. ★ Due to the nature of the product (printing, assembly, color), there may be scratches after printing. This is not a defect. ★ When printing, in the case of thin lines, clumping may occur in areas with detailed breaks. ★ If the logo or text is too small, there may be print clumps. ★ Square/garden images may be distorted in size when printed due to the nature of the tumbler shape. ★ Due to static electricity, the wide-sided cyan may be uneven due to dust marks due to dust. ★ If there is no penton number, there may be a difference in brightness between the cyan and the printed color. This is not a defect. ★ Printed according to the color of the product. Color may differ from cyan. It is not a defect due to the characteristics of the material. ★ When checking the draft, please check the draft carefully, including checking for typos. Exchanges and refunds are not possible after printing. Naiad 500ml 171mm (including lid) 88mm AJOU SOFT Print color Black Print location: Top center Print contents (enlarged version) AJOU SOFT Print size: Width 50 mm Height 4.6991 mm
+Audio content written to file "output.mp3"
+오후 10:16 9월 6일 수요일 〈 무제2 100% '||| ●●● 가 시 김영준 바보 5 사랑해 ♡♡♡ 68% 10:16 PM Wednesday, September 6th 〈 Untitled 2 100% &#39;||| ●●● Thorn Kim Youngjun Fool 5 I love you ♡♡♡ 68%
+10.16.0.2 - - [07/Nov/2023 15:13:51] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [08/Nov/2023 01:02:05] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [08/Nov/2023 01:02:12] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [08/Nov/2023 01:04:27] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [08/Nov/2023 01:04:43] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [08/Nov/2023 03:19:44] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [08/Nov/2023 03:19:47] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [08/Nov/2023 03:21:08] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [08/Nov/2023 03:21:10] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [08/Nov/2023 03:28:39] "POST /api/translate HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1478, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1458, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/app.py", line 71, in process_image
+    file = request.files['image']
+  File "/usr/local/lib/python3.8/dist-packages/werkzeug/datastructures/structures.py", line 192, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+KeyError: 'image'
+10.16.0.2 - - [08/Nov/2023 03:28:43] "POST /api/translate HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1478, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1458, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/app.py", line 71, in process_image
+    file = request.files['image']
+  File "/usr/local/lib/python3.8/dist-packages/werkzeug/datastructures/structures.py", line 192, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+KeyError: 'image'
+10.16.0.2 - - [08/Nov/2023 03:28:58] "POST /api/translate HTTP/1.1" 200 -
+Audio content written to file "output.mp3"
+오후 10:16 9월 6일 수요일 〈 무제2 100% '||| ●●● 가 시 김영준 바보 5 사랑해 ♡♡♡ 68% 10:16 PM Wednesday, September 6th 〈 Untitled 2 100% &#39;||| ●●● Thorn Kim Youngjun Fool 5 I love you ♡♡♡ 68%
+Audio content written to file "output.mp3"
+8:30 211 + +82 10-6747-3850 > 환용 늦게라도 제출 하세요 문자 메시지 (오늘) 오후 1:16 문자 메시지 안녕하십니까 교수님. 저는 아주대학교 인간과 컴퓨터 상호작용 과목을 수강 중인 소프트웨어학과 심영준이라고 합니다. 우선 주말에 연락드려서 정말 죄송 합니다. 제가 어제부터 몸상태가 많이 안 좋아서 오늘까지 과제 제출이 어려울 것 같습니다. 혹시 점수 깎이더라도 늦게 제출 할 수 있을까요? 다시 한번 주말에 연락드려서 정말 죄송 합니다. 심영준 올림. all 5G 53 네 감사합니다. 8:30 211 + +82 10-6747-3850 &gt; Hwanyong Please submit it even if it is late Text message (today) 1:16 PM Text message Hello, Professor. My name is Youngjun Shim, and I am a software major taking a human-computer interaction course at Ajou University. First of all, I&#39;m really sorry for contacting you on the weekend. Since I haven&#39;t been feeling well since yesterday, I think it will be difficult to submit my assignment by today. Can I submit it late even if my score is reduced? Once again, I am truly sorry for contacting you on the weekend. Posted by Youngjun Sim. all 5G 53 Yes, thank you.
+Audio content written to file "output.mp3"
+8:30 211 + +82 10-6747-3850 > 환용 늦게라도 제출 하세요 문자 메시지 (오늘) 오후 1:16 문자 메시지 안녕하십니까 교수님. 저는 아주대학교 인간과 컴퓨터 상호작용 과목을 수강 중인 소프트웨어학과 심영준이라고 합니다. 우선 주말에 연락드려서 정말 죄송 합니다. 제가 어제부터 몸상태가 많이 안 좋아서 오늘까지 과제 제출이 어려울 것 같습니다. 혹시 점수 깎이더라도 늦게 제출 할 수 있을까요? 다시 한번 주말에 연락드려서 정말 죄송 합니다. 심영준 올림. all 5G 53 네 감사합니다. 8:30 211 + +82 10-6747-3850 &gt; Hwanyong Please submit it even if it is late Text message (today) 1:16 PM Text message Hello, Professor. My name is Youngjun Shim, and I am a software major taking a human-computer interaction course at Ajou University. First of all, I&#39;m really sorry for contacting you on the weekend. Since I haven&#39;t been feeling well since yesterday, I think it will be difficult to submit my assignment by today. Can I submit it late even if my score is reduced? Once again, I am truly sorry for contacting you on the weekend. Posted by Youngjun Sim. all 5G 53 Yes, thank you.
+Audio content written to file "output.mp3"
+to accept naturalism as a cornerstone of their methodology and their vocabulary; that is, they ceased to accept supernat- ural explanations as valid within their scientific work and eventually ceased to use theological language at all. Talk about God no longer had a place in the scientific literature. That shift from a theologically oriented study of nature to a naturalis- tic one marks a key turning point in the development of science. By the twentieth century, this shift was nearly complete: a scientist's professional work came to be entirely separated from his or her own private religious beliefs (Numbers 2003; Roberts 2011). The second major change was that religion progressively became the private concern of the individual- not just for scientists but for society as a whole. Sociologists have identified a number of causes of this change, ran- ging from religious diversity to urbaniza- tion to increased mobility, but the result was that public institutions became in- creasingly secularized and separated from 50 mins left in sample 20% 자연주의를 그들의 방법론과 어휘의 초석으로 받아들이는 것; 즉, 그들은 자신들의 과학적 연구에서 초자연적인 설명을 타당하다고 받아들이는 것을 중단했고 결국 신학적인 언어를 전혀 사용하지 않게 되었습니다. 신에 관해 이야기하는 것은 더 이상 과학 문헌에서 자리를 잡지 못했습니다. 신학 중심의 자연 연구에서 자연주의 연구로의 전환은 과학 발전의 중요한 전환점이 됩니다. 20세기에 이르러 이러한 변화는 거의 완성되었습니다. 과학자의 전문적 작업은 자신의 사적인 종교적 신념과 완전히 분리되었습니다(Numbers 2003; Roberts 2011). 두 번째 주요 변화는 종교가 점차 개인, 즉 과학자뿐만 아니라 사회 전체의 사적인 관심사가 되었다는 것입니다. 사회학자들은 이러한 변화의 원인을 종교적 다양성, 도시화, 이동성 증가 등 여러 가지로 파악했지만, 그 결과 공공기관은 점점 세속화되고 표본의 50분 남음과 분리되는 것으로 나타났다.
+Audio content written to file "output.mp3"
+to accept naturalism as a cornerstone of their methodology and their vocabulary; that is, they ceased to accept supernat- ural explanations as valid within their scientific work and eventually ceased to use theological language at all. Talk about God no longer had a place in the scientific literature. That shift from a theologically oriented study of nature to a naturalis- tic one marks a key turning point in the development of science. By the twentieth century, this shift was nearly complete: a scientist's professional work came to be entirely separated from his or her own private religious beliefs (Numbers 2003; Roberts 2011). The second major change was that religion progressively became the private concern of the individual- not just for scientists but for society as a whole. Sociologists have identified a number of causes of this change, ran- ging from religious diversity to urbaniza- tion to increased mobility, but the result was that public institutions became in- creasingly secularized and separated from 50 mins left in sample 20% 자연주의를 그들의 방법론과 어휘의 초석으로 받아들이는 것; 즉, 그들은 자신들의 과학적 연구에서 초자연적인 설명을 타당하다고 받아들이는 것을 중단했고 결국 신학적인 언어를 전혀 사용하지 않게 되었습니다. 신에 관해 이야기하는 것은 더 이상 과학 문헌에서 자리를 잡지 못했습니다. 신학 중심의 자연 연구에서 자연주의 연구로의 전환은 과학 발전의 중요한 전환점이 됩니다. 20세기에 이르러 이러한 변화는 거의 완성되었습니다. 과학자의 전문적 작업은 자신의 사적인 종교적 신념과 완전히 분리되었습니다(Numbers 2003; Roberts 2011). 두 번째 주요 변화는 종교가 점차 개인, 즉 과학자뿐만 아니라 사회 전체의 사적인 관심사가 되었다는 것입니다. 사회학자들은 이러한 변화의 원인을 종교적 다양성, 도시화, 이동성 증가 등 여러 가지로 파악했지만, 그 결과 공공기관은 점점 세속화되고 표본의 50분 남음과 분리되는 것으로 나타났다.
+Audio content written to file "output.mp3"
+WAKE UP! IT'S AN EMERGENCY! MY BOWL IS EMPTY 깨우다! 긴급 상황입니다! 내 그릇이 비어 있어요
+Audio content written to file "output.mp3"
+WAKE UP! IT'S AN EMERGENCY! MY BOWL IS EMPTY 깨우다! 긴급 상황입니다! 내 그릇이 비어 있어요
+Audio content written to file "output.mp3"
+WAKE UP! IT'S AN EMERGENCY! MY BOWL IS EMPTY 깨우다! 긴급 상황입니다! 내 그릇이 비어 있어요
+Audio content written to file "output.mp3"
+WAKE UP! IT'S AN EMERGENCY! MY BOWL IS EMPTY 깨우다! 긴급 상황입니다! 내 그릇이 비어 있어요
+Audio content written to file "output.mp3"
+WAKE UP! IT'S AN EMERGENCY! MY BOWL IS EMPTY 깨우다! 긴급 상황입니다! 내 그릇이 비어 있어요
+Audio content written to file "output.mp3"
+WAKE UP! IT'S AN EMERGENCY! MY BOWL IS EMPTY 10.16.0.2 - - [08/Nov/2023 03:29:01] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [08/Nov/2023 03:29:25] "POST /api/translate HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1478, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1458, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/app.py", line 71, in process_image
+    file = request.files['image']
+  File "/usr/local/lib/python3.8/dist-packages/werkzeug/datastructures/structures.py", line 192, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+KeyError: 'image'
+10.16.0.2 - - [08/Nov/2023 03:29:52] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [08/Nov/2023 03:30:38] "POST /api/translate HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1478, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1458, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/app.py", line 71, in process_image
+    file = request.files['image']
+  File "/usr/local/lib/python3.8/dist-packages/werkzeug/datastructures/structures.py", line 192, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+KeyError: 'image'
+10.16.0.2 - - [08/Nov/2023 03:30:56] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [08/Nov/2023 03:31:01] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [08/Nov/2023 04:34:54] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [08/Nov/2023 04:34:58] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [09/Nov/2023 06:44:38] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [09/Nov/2023 06:44:41] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [13/Nov/2023 12:25:41] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [13/Nov/2023 12:25:45] "POST /api/translate HTTP/1.1" 200 -
+ * Detected change in '/home/ubuntu/app.py', reloading
+깨우다! 긴급 상황입니다! 내 그릇이 비어 있어요
+Audio content written to file "output.mp3"
+( TheDayBefore 의 1주년 입니다. 지금 (It&#39;s the 1st anniversary of TheDayBefore. Now
+Audio content written to file "output.mp3"
+8:30 211 + +82 10-6747-3850 > 환용 늦게라도 제출 하세요 문자 메시지 (오늘) 오후 1:16 문자 메시지 안녕하십니까 교수님. 저는 아주대학교 인간과 컴퓨터 상호작용 과목을 수강 중인 소프트웨어학과 심영준이라고 합니다. 우선 주말에 연락드려서 정말 죄송 합니다. 제가 어제부터 몸상태가 많이 안 좋아서 오늘까지 과제 제출이 어려울 것 같습니다. 혹시 점수 깎이더라도 늦게 제출 할 수 있을까요? 다시 한번 주말에 연락드려서 정말 죄송 합니다. 심영준 올림. all 5G 53 네 감사합니다. 8:30 211 + +82 10-6747-3850 &gt; Hwanyong Please submit it even if it is late Text message (today) 1:16 PM Text message Hello, Professor. My name is Youngjun Shim, and I am a software major taking a human-computer interaction course at Ajou University. First of all, I&#39;m really sorry for contacting you on the weekend. Since I haven&#39;t been feeling well since yesterday, I think it will be difficult to submit my assignment by today. Can I submit it late even if my score is reduced? Once again, I am truly sorry for contacting you on the weekend. Posted by Youngjun Sim. all 5G 53 Yes, thank you.
+Audio content written to file "output.mp3"
+8:30 211 + +82 10-6747-3850 > 환용 늦게라도 제출 하세요 문자 메시지 (오늘) 오후 1:16 문자 메시지 안녕하십니까 교수님. 저는 아주대학교 인간과 컴퓨터 상호작용 과목을 수강 중인 소프트웨어학과 심영준이라고 합니다. 우선 주말에 연락드려서 정말 죄송 합니다. 제가 어제부터 몸상태가 많이 안 좋아서 오늘까지 과제 제출이 어려울 것 같습니다. 혹시 점수 깎이더라도 늦게 제출 할 수 있을까요? 다시 한번 주말에 연락드려서 정말 죄송 합니다. 심영준 올림. all 5G 53 네 감사합니다. 8:30 211 + +82 10-6747-3850 &gt; Hwanyong Please submit it even if it is late Text message (today) 1:16 PM Text message Hello, Professor. My name is Youngjun Shim, and I am a software major taking a human-computer interaction course at Ajou University. First of all, I&#39;m really sorry for contacting you on the weekend. Since I haven&#39;t been feeling well since yesterday, I think it will be difficult to submit my assignment by today. Can I submit it late even if my score is reduced? Once again, I am truly sorry for contacting you on the weekend. Posted by Youngjun Sim. all 5G 53 Yes, thank you.
+Audio content written to file "output.mp3"
+WAKE UP! IT'S AN EMERGENCY! MY BOWL IS EMPTY 깨우다! 긴급 상황입니다! 내 그릇이 비어 있어요
+Audio content written to file "output.mp3"
+WAKE UP! IT'S AN EMERGENCY! MY BOWL IS EMPTY 깨우다! 긴급 상황입니다! 내 그릇이 비어 있어요
+Audio content written to file "output.mp3"
+WAKE UP! IT'S AN EMERGENCY! MY BOWL IS EMPTY 깨우다! 긴급 상황입니다! 내 그릇이 비어 있어요
+Audio content written to file "output.mp3"
+WAKE UP! IT'S AN EMERGENCY! MY BOWL IS EMPTY 깨우다! 긴급 상황입니다! 내 그릇이 비어 있어요
+Audio content written to file "output.mp3"
+VILKS BOCKBON Fettuccine フェットチーネグミ Jummi AL DENTE BOUNCY BITE! ITALIAN GRAPE FLAVOR ※写真は味のイメージです。 VILKS BOCKBON Fettuccine 훗토치네구미 Jummi AL DENTE BOUNCY BITE! ITALIAN GRAPE FLAVOR ※사진은 맛의 이미지입니다.
+Audio content written to file "output.mp3"
+VILKS BOCKBON Fettuccine フェットチーネグミ Jummi AL DENTE BOUNCY BITE! ITALIAN GRAPE FLAVOR ※写真は味のイメージです。 VILKS BOCKBON Fettuccine 페트치네구미 Jummi AL DENTE BOUNCY BITE! ITALIAN GRAPE FLAVOR ※사진은 맛의 이미지입니다.
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 306-042-716
+10.16.0.2 - - [14/Nov/2023 03:19:09] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [14/Nov/2023 03:19:11] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [14/Nov/2023 03:19:17] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [14/Nov/2023 03:19:23] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [14/Nov/2023 03:19:28] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [14/Nov/2023 03:19:44] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [14/Nov/2023 03:19:55] "POST /api/translate HTTP/1.1" 200 -
+ * Detected change in '/home/ubuntu/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 306-042-716
+10.16.0.2 - - [14/Nov/2023 03:20:57] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [14/Nov/2023 03:20:59] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [14/Nov/2023 03:21:37] "POST /api/translate HTTP/1.1" 200 -
+ * Detected change in '/home/ubuntu/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 306-042-716
+ * Detected change in '/home/ubuntu/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 306-042-716
+ * Detected change in '/home/ubuntu/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 306-042-716
+10.16.0.2 - - [14/Nov/2023 03:24:18] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [14/Nov/2023 03:24:21] "POST /api/translate HTTP/1.1" 200 -
+ * Detected change in '/home/ubuntu/app.py', reloading
+Audio content written to file "output.mp3"
+Audio content written to file "output.mp3"
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 306-042-716
+ * Detected change in '/home/ubuntu/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 306-042-716
+10.16.0.2 - - [15/Nov/2023 13:04:44] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [15/Nov/2023 13:04:49] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [15/Nov/2023 13:05:57] "POST /api/translate HTTP/1.1" 200 -
+10.16.0.2 - - [15/Nov/2023 13:06:18] "POST /api/translate HTTP/1.1" 200 -
